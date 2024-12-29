@@ -28,8 +28,9 @@
 
    Exécutez le script PowerShell pour appliquer le fond d'écran :
 
-    ```powershell
+```powershell
    powershell -ExecutionPolicy Bypass -File Set-Wallpaper.ps1
+```
 
 ## Authors
 
