@@ -69,7 +69,7 @@ C#
 
 ## License
 
-[Apache-2.0 license](https://github.com/o2Cloud-fr/System-Information-Report-Generator/blob/main/LICENSE)
+[Apache-2.0 license](https://github.com/o2Cloud-fr/Set-Wallpaper/blob/main/LICENSE)
 
 
 ![Logo](https://o2cloud.fr/logo/o2Cloud.png)
@@ -79,7 +79,7 @@ C#
 
 Here are some related projects
 
-[Awesome README](https://github.com/o2Cloud-fr/System-Information-Report-Generator/blob/main/README.md)
+[Awesome README](https://github.com/o2Cloud-fr/Set-Wallpaper/blob/main/README.md)
 
 
 ## Roadmap
