@@ -24,12 +24,12 @@
    ```
   2. Placez l'image du fond d'écran dans le répertoire réseau accessible par tous les utilisateurs ou ordinateurs cibles :
    ```bash
-   \\SWRep\Screen
+\\SWRep\Screen
    ```
  3. Exécutez le script PowerShell pour appliquer le fond d'écran :
 
 ```powershell
-   powershell -ExecutionPolicy Bypass -File Set-Wallpaper.ps1
+powershell -ExecutionPolicy Bypass -File Set-Wallpaper.ps1
 ```
 
 ## Authors
