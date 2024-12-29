@@ -21,12 +21,12 @@
 1. Téléchargez ou clonez ce dépôt :
    ```bash
    git clone https://github.com/o2Cloud-fr/Set-Wallpaper.git
-
-   Placez l'image du fond d'écran dans le répertoire réseau accessible par tous les utilisateurs ou ordinateurs cibles :
+   ```
+  2. Placez l'image du fond d'écran dans le répertoire réseau accessible par tous les utilisateurs ou ordinateurs cibles :
    ```bash
    \\SWRep\Screen
    ```
- 2. Exécutez le script PowerShell pour appliquer le fond d'écran :
+ 3. Exécutez le script PowerShell pour appliquer le fond d'écran :
 
 ```powershell
    powershell -ExecutionPolicy Bypass -File Set-Wallpaper.ps1
