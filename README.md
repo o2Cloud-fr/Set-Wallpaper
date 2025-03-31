@@ -1,105 +1,98 @@
-# Set-Wallpaper.ps1 - Script PowerShell pour configurer le fond d'écran via GPO
+# 🖼️ Set-Wallpaper.ps1 - Script PowerShell pour configurer le fond d'écran via GPO
 
 **Set-Wallpaper.ps1** est un script PowerShell conçu pour configurer automatiquement un fond d'écran sur des postes Windows. Il est compatible avec les stratégies de groupe (GPO) et peut être utilisé dans un environnement d'entreprise pour appliquer une image de fond spécifique à plusieurs utilisateurs ou ordinateurs.
 
-## Fonctionnalités
+![Logo](https://o2cloud.fr/logo/o2Cloud.png)
 
-- Définit le fond d'écran à partir d'un chemin réseau spécifié.
-- Applique automatiquement les modifications via la commande `RUNDLL32.EXE`.
-- Facilement intégrable aux GPO pour une application centralisée.
-- Vérifie si le chemin réseau existe avant de procéder à la configuration.
-- Script entièrement autonome : aucune dépendance externe requise.
+## ✨ Fonctionnalités
 
-## Pré-requis
+- 🖌️ **Configuration automatique du fond d'écran** à partir d'un chemin réseau spécifié
+- 🔄 **Application automatique des modifications** via la commande `RUNDLL32.EXE`
+- 🔧 **Intégration avec GPO** pour une application centralisée
+- 🔍 **Vérification préalable du chemin réseau** avant la configuration
+- 📦 **Script autonome** - aucune dépendance externe requise
 
-- Windows PowerShell (version 5.1 ou ultérieure).
-- Accès réseau au chemin contenant l'image du fond d'écran.
-- Droits d'accès suffisants pour modifier les paramètres de registre utilisateur.
+## 📋 Pré-requis
 
-## Utilisation
+- 💻 Windows PowerShell (version 5.1 ou ultérieure)
+- 🌐 Accès réseau au chemin contenant l'image du fond d'écran
+- 🔑 Droits d'accès suffisants pour modifier les paramètres de registre utilisateur
+
+## 🚀 Utilisation
 
 1. Téléchargez ou clonez ce dépôt :
    ```bash
    git clone https://github.com/o2Cloud-fr/Set-Wallpaper.git
    ```
-  2. Placez l'image du fond d'écran dans le répertoire réseau accessible par tous les utilisateurs ou ordinateurs cibles :
+
+2. Placez l'image du fond d'écran dans le répertoire réseau accessible par tous les utilisateurs ou ordinateurs cibles :
    ```bash
-\\SWRep\Screen
+   \\SWRep\Screen
    ```
- 3. Exécutez le script PowerShell pour appliquer le fond d'écran :
 
-```powershell
-powershell -ExecutionPolicy Bypass -File Set-Wallpaper.ps1
-```
+3. Exécutez le script PowerShell pour appliquer le fond d'écran :
+   ```powershell
+   powershell -ExecutionPolicy Bypass -File Set-Wallpaper.ps1
+   ```
 
-## Authors
+## 👨‍💻 Auteurs
 
 - [@MyAlien](https://www.github.com/MyAlien)
-- [@o2Cloud](https://www.github.com/o2Cloud-fr )
+- [@o2Cloud](https://www.github.com/o2Cloud-fr)
 
-## Badges
+## 🔖 Badges
 
-Add badges from somewhere like: [shields.io](https://shields.io/)
+[![Apache License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/o2Cloud-fr/Set-Wallpaper/blob/main/LICENSE)
+[![Windows](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows)](https://github.com/o2Cloud-fr/Set-Wallpaper)
+[![PowerShell](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell)](https://github.com/o2Cloud-fr/Set-Wallpaper)
+[![o2Cloud](https://img.shields.io/badge/Powered%20by-o2Cloud-orange.svg)](https://o2cloud.fr/)
 
-[![MIT License](https://img.shields.io/badge/License-o2Cloud-yellow.svg)]()
+## 🤝 Contribution
 
+Les contributions sont toujours les bienvenues !
 
-## Contributing
+Consultez le fichier `contributing.md` pour découvrir comment contribuer à ce projet.
+Veuillez respecter le `code of conduct` du projet.
 
-Contributions are always welcome!
+## 💬 Feedback
 
-See `contributing.md` for ways to get started.
+Si vous avez des commentaires ou des suggestions, n'hésitez pas à nous contacter à github@o2cloud.fr
 
-Please adhere to this project's `code of conduct`.
+## 🔗 Liens
 
-
-## Feedback
-
-If you have any feedback, please reach out to us at github@o2cloud.fr
-
-
-## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://vcard.o2cloud.fr/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/remi-simier-2b30142a1/)
 
+## 🛠️ Compétences
 
-## 🛠 Skills
-C#
+- PowerShell
+- Stratégies de groupe Windows (GPO)
+- Scripting Windows
 
-
-## License
+## 📝 Licence
 
 [Apache-2.0 license](https://github.com/o2Cloud-fr/Set-Wallpaper/blob/main/LICENSE)
 
+## 🔄 Projets connexes
 
-![Logo](https://o2cloud.fr/logo/o2Cloud.png)
+Voici quelques projets similaires ou complémentaires :
+- [GitHub o2Cloud](https://github.com/o2Cloud-fr?tab=repositories)
+- [Awesome README](https://github.com/o2Cloud-fr/Set-Wallpaper/blob/main/README.md)
 
+## 🗺️ Feuille de route
 
-## Related
+- 🎨 Support pour différents modes d'affichage (mosaïque, étirement, centré)
+- 📅 Rotation automatique des fonds d'écran selon un calendrier
+- 📱 Support pour les configurations multi-écrans
+- 👥 Personnalisation par groupe d'utilisateurs ou département
+- 📊 Journalisation du déploiement pour l'audit
 
-Here are some related projects
+## 🆘 Support
 
-[Awesome README](https://github.com/o2Cloud-fr/Set-Wallpaper/blob/main/README.md)
+Pour obtenir de l'aide, envoyez un e-mail à github@o2cloud.fr
 
+## 💼 Utilisé par
 
-## Roadmap
-
-- Additional browser support
-
-- Add more integrations
-
-
-## Support
-
-For support, email github@o2cloud.fr or join our Slack channel.
-
-
-## Tech Stack
-
-## Used By
-
-This project is used by the following companies:
-
+Ce projet est utilisé par les entreprises suivantes :
 - o2Cloud
 - MyAlienTech
-
